@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>Hello</title>
+</head>
+<body>
+<h1>从这里开始</h1>
+{{$user := .}}
+<h2>{{.Name}}</h2>
+<h3>{{.Age}}</h3>
+<h4>{{.Gender}}</h4>
+{{if .Age }}
+<h1>
+{{ $age := 20 }}
+user 存在,{{$age}}
+name = {{$user.Age}}</h1>
+{{end}}
+
+</body>
+</html>
